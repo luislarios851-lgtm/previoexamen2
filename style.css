@@ -1,0 +1,37 @@
+
+body.menu {
+    margin: 0;
+    padding: 15px;
+    
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.menu img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    border-radius: 12px;
+    transition: transform 0.2s;
+}
+
+.menu img:hover {
+    transform: scale(1.08);
+}
+body.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #000000;
+    color: #eff1f3;
+    margin: 0;
+    padding: 0;
+}
+
